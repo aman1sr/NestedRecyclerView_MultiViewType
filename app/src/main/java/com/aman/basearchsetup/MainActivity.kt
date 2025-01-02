@@ -9,6 +9,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
 import com.aman.basearchsetup.databinding.ActivityMainBinding
+import com.aman.basearchsetup.model.spotify.SpotifyMusicResponse
+import com.aman.basearchsetup.utils.Util
 import kotlinx.coroutines.launch
 
 const val TAG = "BASE_ARCH_d"
@@ -27,7 +29,14 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        observeData()
+//        observeData()
+        getSpotifyJsonData()
+    }
+
+    private fun getSpotifyJsonData() {
+        val jsonData = Util.readJsonFromAssets(this, "spotify_home.json")
+        val spotifyResponse: SpotifyMusicResponse = Util.parseJsonToModel(jsonData)
+        Log.d(TAG, "getSpotifyJsonData: $spotifyResponse")
     }
 
     private fun observeData() {
