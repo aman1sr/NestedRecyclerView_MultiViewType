@@ -1,7 +1,7 @@
 {
   "spotifyHomeData": [
     {
-      "viewType": "mixes_for_you",
+      "viewType": 11,
       "title": "Mixes for You",
       "items": [
         {
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "viewType": "recently_played",
+      "viewType": 22,
       "title": "Recently Played",
       "items": [
         {
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "viewType": "select_your_mood",
+      "viewType": 33,
       "title": "Select Your Mood",
       "items": [
         {
@@ -96,6 +96,104 @@
           "musicName": "feeling lazy",
           "musicGenre": "Acoustic"
         }
+      ]
+    },
+    {
+      "viewType": 11,
+      "title": "Mixes You Might Like",
+      "items": [
+        {
+          "imageBanner": "https://i.scdn.co/image/ab67616d0000b27350904eaae45e83944df52cb8",
+          "musicName": "Chill Vibes Mix",
+          "musicGenre": "Lo-fi, Chill"
+        },
+        {
+          "imageBanner": "https://i.scdn.co/image/ab67616d0000b2730d15432c7d94dd8e5f18085a",
+          "musicName": "Top Hits Mix",
+          "musicGenre": "Pop, Rock"
+        },
+        {
+          "imageBanner": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84781355501085dec579477533",
+          "musicName": "Workout Beats Mix",
+          "musicGenre": "Hip-Hop, Electronic"
+        },
+        {
+          "imageBanner": "https://i.scdn.co/image/ab67616d00001e0248f8dc7ca320b9c35aedf766",
+          "musicName": "Acoustic Bliss Mix",
+          "musicGenre": "Acoustic, Folk"
+        },
+        {
+          "imageBanner": "https://i.scdn.co/image/ab67616d00001e02c795e9115608655e53183ec0",
+          "musicName": "Party Hits Mix",
+          "musicGenre": "Dance, EDM"
+        }
+      ]
+    },
+    {
+      "viewType": 33,
+      "title": "2024 Bangers",
+      "items": [
+        {
+          "imageBanner": "https://i.scdn.co/image/ab67706f0000000249a1ed33d2ca64e6a5d0e550",
+          "musicName": "Happy Hits",
+          "musicGenre": "Upbeat, Pop"
+        },
+        {
+          "imageBanner": "https://i.scdn.co/image/ab67616d00001e021e933e2eac8e363a3a415c47",
+          "musicName": "Melancholy Strings",
+          "musicGenre": "Classical, Acoustic"
+        },
+        {
+          "imageBanner": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846f2609905e92a3414199d696",
+          "musicName": "Energy Boost",
+          "musicGenre": "Electronic, House"
+        },
+        {
+          "imageBanner": "https://i.scdn.co/image/ab67616d0000b27364754b4360f360c1f548284c",
+          "musicName": "Mood Booster",
+          "musicGenre": "Electronic, Deep"
+        },
+        {
+          "imageBanner": "https://i.scdn.co/image/ab67616d00001e02faa7e58f8423b574d94cef68",
+          "musicName": "feeling lazy",
+          "musicGenre": "Acoustic"
+        }
+      ]
+    },
+    {
+      "viewType": 22,
+      "title": "MTV Hustle 4.0",
+      "items": [
+        {
+          "imageBanner": "https://i.scdn.co/image/ab67616d0000b2734ac9816872134a63dd5c48e1",
+          "musicName": "Duniya ko jeetne aaya",
+          "musicGenre": "Hip Hop",
+          "artistName": "Dharmik & Aditya Pushkarna"
+        },
+        {
+          "imageBanner": "https://i.scdn.co/image/ab676161000051749cdd82c65af5a829a98d9486",
+          "musicName": "Majja Ni Lie",
+          "musicGenre": "Chill HipHop",
+          "artistName": "Mad Trip 7 Aditya Pushkarna"
+        },
+        {
+          "imageBanner": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d02ba2e86db02aa821b98b0c",
+          "musicName": "Nazaarein",
+          "musicGenre": "Soul, HipHop",
+          "artistName": "Danish & Aditya Pushkarna"
+        } ,
+        {
+          "imageBanner": "https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca",
+          "musicName": "Tum Mile (Love reprise)",
+          "musicGenre": "romantic",
+          "artistName": "Pritam & Javed Ali"
+        }, {
+          "imageBanner": "https://i.scdn.co/image/ab6761610000e5eb1dcbb331f2318db2dd2c6bcf",
+          "musicName": "Laila Laila",
+          "musicGenre": "pop",
+          "artistName": "Amit Trivedi"
+        }
+
       ]
     }
   ]

@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.aman.basearchsetup.adapter.SpotifyHomeAdapter
 import com.aman.basearchsetup.databinding.ActivityMainBinding
 import com.aman.basearchsetup.model.spotify.SpotifyMusicResponse
 import com.aman.basearchsetup.utils.Util
@@ -36,7 +38,18 @@ class MainActivity : AppCompatActivity() {
     private fun getSpotifyJsonData() {
         val jsonData = Util.readJsonFromAssets(this, "spotify_home.json")
         val spotifyResponse: SpotifyMusicResponse = Util.parseJsonToModel(jsonData)
-        Log.d(TAG, "getSpotifyJsonData: $spotifyResponse")
+        Log.d(TAG, "getSpotifyJsonData: $spotifyResponse")      // todo: add a custom delay of 2, 3 sec for respective views
+
+        setAdapter(spotifyResponse)
+    }
+
+    private fun setAdapter(reponse: SpotifyMusicResponse) {
+        val homeAdapter = SpotifyHomeAdapter()
+        binding?.rvSpotify?.apply {
+            layoutManager = LinearLayoutManager(this@MainActivity)
+            adapter = homeAdapter
+        }
+        homeAdapter.submitList(reponse.spotifyHomeData)
     }
 
     private fun observeData() {
