@@ -17,9 +17,9 @@ This project is an Extension of Basic Nested RecyclerView
 ### Screenshots
 
 <div align="center">
-    <img src="https://github.com/aman1sr/basicNestedRecylerView/blob/master/app/screenshot/basic_nested_revView1.png?raw=true?raw=true" alt=" Screenshot1" width="30%"  />
-    <img src="https://github.com/aman1sr/basicNestedRecylerView/blob/master/app/screenshot/basic_nested_revView2.png?raw=true?raw=true" alt=" Screenshot2" width="30%"  />
-    <img src="https://github.com/aman1sr/basicNestedRecylerView/blob/master/app/screenshot/basic_nested_revView3.png?raw=true?raw=true" alt=" Screenshot3" width="30%"  />
+    <img src="https://github.com/aman1sr/NestedRecyclerView_MultiViewType/blob/master/app/screenshot/MultiView1.png?raw=true" alt=" Screenshot1" width="30%"  />
+    <img src="https://github.com/aman1sr/NestedRecyclerView_MultiViewType/blob/master/app/screenshot/MultiView2.png?raw=true" alt=" Screenshot2" width="30%"  />
+    <img src="https://github.com/aman1sr/NestedRecyclerView_MultiViewType/blob/master/app/screenshot/MultiView3.png?raw=true" alt=" Screenshot3" width="30%"  />
 </div>
 
 ---
