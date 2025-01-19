@@ -8,9 +8,12 @@ This project is an Extension of Basic Nested RecyclerView
 
 ![Sample GIF](https://miro.medium.com/v2/resize:fit:800/1*zzTEyTwyy7jXibtqVWg84Q.gif)
 
-## Implementation Details
 
-- // todo: update it soon
+## Fundamental Concepts of Nested RecyclerView with Multi-ViewType:
+- viewType received in data
+  - The viewType value determines the layout to inflate before onCreateViewHolder() is called. This is achieved through getItemViewType()
+- Order of the list
+  -  The Order of JSON structure directly affects the order in the UI.
 
 ---
 
@@ -22,7 +25,7 @@ This project is an Extension of Basic Nested RecyclerView
 - [Article Link: medium Amit Shekhar](https://blog.mindorks.com/recyclerview-multiple-view-types-in-android/)
 - [Article Link: medium Abhishek Jangra](https://theminimaldev.medium.com/a-clean-way-to-do-multi-viewtype-recyclerviews-on-android-223510d2c65)
 - [Article Link: medium ](https://medium.com/nerd-for-tech/nested-recyclerview-in-android-e5afb2b9771a)
-- [GOT json Data:](------)
+- [Spotify json Data](https://github.com/aman1sr/NestedRecyclerView_MultiViewType/blob/master/app/src/main/assets/spotify_home.json)
 
 
 
