@@ -1,4 +1,4 @@
-# Basic Nested RecyclerView
+# Nested RecyclerView with Multi-ViewType
 
 ## Overview
 This Android project demonstrates  example of Nested RecyclerView of MultiView Type, Immitated Spotify Home Screen UI for the same
